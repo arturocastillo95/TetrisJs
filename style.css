@@ -1,0 +1,50 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.is-title {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.is-subtitle {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #2e2e2e;
+}
+
+.stats {
+    text-align: center;
+}
+
+#start-button {
+    margin: 1.5rem;
+}
+
+.grid {
+    margin: auto;
+    width: 200px;
+    height: 400px;
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: royalblue;
+}
+}
